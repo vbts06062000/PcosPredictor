@@ -109,7 +109,7 @@ def predict(model, input_value):
 
     probability_has_pcos = probabilities[0, 1]
 
-    st.markdown(f"<p style='font-size:{"20px"}'>Probability of having PCOS: {probability_has_pcos*100} % </p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='font-size:20px'>Probability of having PCOS: {probability_has_pcos*100} % </p>", unsafe_allow_html=True)
 
     threshold_has_pcos = 0.7
     threshold_has_mod_pcos = 0.4
