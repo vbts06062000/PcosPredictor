@@ -4,7 +4,7 @@ import numpy as np
 import datetime
 
 # Load your model
-xgbc = pickle.load(open(r'xgbc.pkl', 'rb'))
+xgbc = pickle.load(open(r'https://github.com/vbts06062000/PcosPredictor/blob/490a0699315fee8bb53ad893d37c3ef14d425987/xgbc.pkl', 'rb'))
 
 def main():
     
