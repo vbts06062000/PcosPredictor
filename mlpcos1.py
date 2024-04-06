@@ -2,10 +2,9 @@ import streamlit as st
 import pickle
 import numpy as np
 import datetime
-import joblib
 
 # Load your model
-model = joblib.load("xgbc.pkl")
+xgbc = pickle.load(open(r'xgbc.pkl', 'rb'))
 
 def main():
     
