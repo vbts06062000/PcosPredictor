@@ -2,11 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np
 import datetime
-
+import xgboost
 
 # Load your model
 xgbc = pickle.load(open(r'xgbc.pkl', 'rb'))
-import xgboost
 def main():
     
     st.title("PCOS Prediction App")
