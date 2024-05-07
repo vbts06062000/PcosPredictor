@@ -3,6 +3,7 @@ import pickle
 import numpy as np
 import datetime
 import xgboost
+import llvmlite
 # Load your model
 xgbc = pickle.load(open(r'xgbc.pkl', 'rb'))
 def main():
