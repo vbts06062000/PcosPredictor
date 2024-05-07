@@ -4,3 +4,4 @@ scikit-learn
 xgboost==1.0.2
 numba==0.48.0
 streamlit==0.79.0
+llvmlite
